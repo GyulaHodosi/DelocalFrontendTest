@@ -1,0 +1,50 @@
+.palette-container {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  width: fit-content;
+  height: 100px;
+}
+
+.palette-details {
+  float: left;
+}
+
+.palette-title {
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+.palette-creator {
+  margin-bottom: 10px;
+}
+
+.palette-views {
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.palette-colors {
+  margin-left: 20px;
+  float: right;
+}
+
+.palette-color {
+  display: inline-block;
+  /* background-color: rosybrown; */
+  width: 30px;
+  min-height: 100px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
