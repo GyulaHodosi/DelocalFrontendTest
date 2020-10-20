@@ -1,0 +1,21 @@
+.palettes-container {
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.sub-title {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 400;
+}
