@@ -1,14 +1,18 @@
 .palette-container {
   display: inline-block;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-right: 30px;
+  margin: 10px;
+  padding: 15px;
   width: fit-content;
-  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(77, 76, 76, 0.5);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.1);
 }
 
 .palette-details {
-  float: left;
+  display: inline-block;
+  height: 120px;
+  width: 300px;
 }
 
 .palette-title {
@@ -30,13 +34,15 @@
 }
 
 .palette-colors {
+  height: 100px;
+  margin-top: 20px;
   margin-left: 20px;
-  float: right;
+  display: inline-block;
 }
 
 .palette-color {
+  border-radius: 10px;
   display: inline-block;
-  /* background-color: rosybrown; */
   width: 30px;
   min-height: 100px;
 }
