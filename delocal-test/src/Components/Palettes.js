@@ -27,6 +27,7 @@ export default function Palettes() {
           let result = await getPalettes();
           setPalettes(result);
           setLoadCount(loadCount+10);
+          console.clear();
         }
         FetchPalettes();
       }, []);

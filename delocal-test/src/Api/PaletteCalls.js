@@ -6,7 +6,7 @@ export async function getPalettes() {
 }
 
 export async function getNewPalettes(offSet) {
-  let respones = await axios.get(`https://cors-anywhere.herokuapp.com/http://www.colourlovers.com/api/palettes?numResults=10&resultOffset=${offSet}&format=json`);
+  let respones = await axios.get(`/http://www.colourlovers.com/api/palettes?numResults=10&resultOffset=${offSet}&format=json`);
   return respones.data;
 }
 
