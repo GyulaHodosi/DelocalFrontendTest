@@ -1,14 +1,10 @@
-import Axios from "axios";
+import axios from "axios";
 
-const API_URL = "http://www.colourlovers.com/api/";
+const API_URL = "https://cors-anywhere.herokuapp.com/";
 const TIMEOUT = 5000;
 
-export default Axios.create({
+export default axios.create({
   baseURL: API_URL,
   timeout: TIMEOUT,
   withCredentials: false,
-  headers: {
-    'Access-Control-Allow-Origin' : '*',
-    'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-    }
 });
