@@ -1,14 +1,23 @@
 .palettes-container {
-  margin-left: 25%;
+  width: fit-content;
+  margin-left: 20%;
   margin-right: 20%;
+  height: 110%;
 }
 
 .header {
   margin-bottom: 20px;
 }
 
+.update {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
 .title {
   display: inline-block;
+  margin-left: 5px;
   font-size: 50px;
   font-weight: 100;
 }
@@ -18,4 +27,12 @@
   display: inline-block;
   font-size: 50px;
   font-weight: 400;
+}
+
+.instruction {
+  margin: 10px;
+  margin-left: 20%;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 30px;
 }
